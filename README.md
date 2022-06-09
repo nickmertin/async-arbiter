@@ -1,5 +1,8 @@
 # async-arbiter
 
+[![Clojars Project](https://img.shields.io/clojars/v/ca.nickmertin/async-arbiter.svg)](https://clojars.org/ca.nickmertin/async-arbiter)
+[![cljdoc badge](https://cljdoc.org/badge/ca.nickmertin/async-arbiter)](https://cljdoc.org/d/ca.nickmertin/async-arbiter)
+
 A Clojure(Script) library that provides an async-enabled key-based mutual
 exclusion facility. Useful for ensuring atomic access to resources which don't
 have atomicity features with minimal impact on concurrent access. For example,
