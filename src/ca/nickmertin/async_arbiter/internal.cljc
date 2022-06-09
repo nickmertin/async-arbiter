@@ -1,7 +1,7 @@
 (ns ^:no-doc ca.nickmertin.async-arbiter.internal
   (:require [clojure.core.async :refer [chan promise-chan go-loop close! put! <! >!]]
             [ca.nickmertin.async-arbiter.protocols :refer [Arbiter]])
-  (:import [clojure.lang PersistentQueue]))
+  (:import #?(:clj [clojure.lang PersistentQueue])))
 
 (deftype SimpleArbiter
     [ch comparator]
@@ -39,7 +39,8 @@
                         #(if (nil? %)
                            (do
                              (put! ready key)
-                             PersistentQueue/EMPTY)
+                             #?(:clj PersistentQueue/EMPTY
+                                :cljs #queue []))
                            (conj % ready))))
               :unlock
               (doseq [key arg]
