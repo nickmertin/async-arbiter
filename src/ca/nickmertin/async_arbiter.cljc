@@ -30,7 +30,7 @@
                (finally
                  (proto/unlock! a# handle#))))))
 
-(definline stop!
+(defn stop!
   "Shuts down an arbiter."
   [a]
-  `(proto/stop! ~a))
+  (proto/stop! a))
