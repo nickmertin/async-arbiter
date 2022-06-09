@@ -2,6 +2,8 @@
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
 ## [Unreleased]
+
+## [0.1.3] - 2022-06-09
 ### Fixed
 - `stop!` was not available in ClojureScript.
 
@@ -15,3 +17,4 @@ All notable changes to this project will be documented in this file. This change
 
 [Unreleased]: https://sourcehost.site/your-name/async-arbiter/compare/0.1.2...HEAD
 [0.1.2]:  https://sourcehost.site/your-name/async-arbiter/compare/0.1.0...0.1.2
+[0.1.2]:  https://sourcehost.site/your-name/async-arbiter/compare/0.1.2...0.1.3
