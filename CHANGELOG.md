@@ -15,6 +15,6 @@ All notable changes to this project will be documented in this file. This change
 ### Added
 - `simple-arbiter`, `with-lock!`, `with-lock!!`, and `stop!`.
 
-[Unreleased]: https://github.com/your-name/async-arbiter/compare/0.1.3...HEAD
-[0.1.3]:  https://github.com/your-name/async-arbiter/compare/0.1.2...0.1.3
-[0.1.2]:  https://github.com/your-name/async-arbiter/compare/0.1.0...0.1.2
+[Unreleased]: https://github.com/nickmertin/async-arbiter/compare/0.1.3...HEAD
+[0.1.3]:  https://github.com/nickmertin/async-arbiter/compare/0.1.2...0.1.3
+[0.1.2]:  https://github.com/nickmertin/async-arbiter/compare/0.1.0...0.1.2
